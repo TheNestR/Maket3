@@ -1,0 +1,103 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.block1{
+    background-image: url(../images/aloe2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    /* height: 100vh; */
+    margin: 20px;
+    position: relative;
+}
+.headertext{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.htext2 span{
+    margin-left: 50px;
+}
+.button1{
+    padding: 12px 35px;
+    border: 2px solid #000;
+    font-weight: 600;
+}
+.htext1{
+    font-size: 35px;
+    margin-left: 30px;
+    font-weight: 800;
+}
+.htext2{
+    font-size: 18px;
+}
+.block1text{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.block1text1{
+    font-size: 120px;
+    font-weight: 600;
+}
+.block1text2{
+    font-weight: 500;
+    font-size: 30px;
+}
+.line{
+    width: 65px;
+    border: 3px solid #39551f;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.line1{
+    width: 65px;
+    border: 3px solid #000;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.block2{
+    height: 100vh;
+}
+.block2text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 100px;
+    right: 0px;
+    left: 0px;
+}
+.blocklist{
+    display: flex;
+    gap: 30px;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    margin: 0px 25px;
+}
+.blocklistimage img{
+    max-height: 300px;
+    min-width: 300px;
+    object-fit: cover;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blocklisttext{
+    padding: 15px 25px;
+    text-align: center;
+}
