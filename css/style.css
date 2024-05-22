@@ -89,15 +89,45 @@ body{
 }
 .blocklistimage img{
     width: 100%;
-    height: 100%;
+    height: 50vh;
     object-fit: cover;
+}
+.blocklistimage{
+    width: 100%;
 }
 .section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 33%;
 }
 .blocklisttext{
     padding: 15px 25px;
     text-align: center;
+}
+
+.block3{
+    height: 100vh;
+}
+.fullblock3{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.block3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imageblock3{
+    width: 50%;
+}
+.imageblock3 img{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+.textblock3{
+    margin-left: auto;
+    margin-right: auto;
 }
