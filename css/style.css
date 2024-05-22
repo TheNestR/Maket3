@@ -68,15 +68,18 @@ body{
 }
 .block2{
     height: 100vh;
+    background-color: #f2f4f1;
+    margin: 20px 20px 0px 20px;
 }
 .block2text{
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 5%; /* Или 100px */
     right: 0px;
     left: 0px;
+    font-size: 30px;
 }
 .blocklist{
     display: flex;
@@ -104,6 +107,8 @@ body{
 .blocklisttext{
     padding: 15px 25px;
     text-align: center;
+    font-size: 25px;
+    line-height: 1.8;
 }
 
 .block3{
@@ -130,4 +135,10 @@ body{
 .textblock3{
     margin-left: auto;
     margin-right: auto;
+}
+.subscribe{
+    height: 50vh;
+    width: 100%;
+    background-color: #f2f4f1;
+    text-align: center;
 }
