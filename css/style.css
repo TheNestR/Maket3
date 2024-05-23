@@ -61,10 +61,22 @@ body{
     margin-top: 20px;
 }
 .line1{
-    width: 65px;
+    width: 50px;
     border: 3px solid #000;
     border-radius: 2px;
+    margin-top: 100px;
+}
+.line2{
+    width: 75px;
+    border: 3px solid #000;
+    border-radius: 3px;
     margin-top: 20px;
+}
+.line3{
+    width: 50px;
+    border: 3px solid #000;
+    border-radius: 3px;
+    margin-top: 10px;
 }
 .block2{
     height: 100vh;
@@ -76,23 +88,23 @@ body{
     flex-direction: column;
     align-items: center;
     position: absolute;
-    margin-top: 5%; /* Или 100px */
+    margin-top: 3%; /* Или 100px */
     right: 0px;
     left: 0px;
     font-size: 30px;
 }
 .blocklist{
     display: flex;
-    gap: 30px;
+    gap: 40px;
     height: 100vh;
     align-items: center;
     position: relative;
     justify-content: space-between;
-    margin: 0px 25px;
+    margin: 0px 35px;
 }
 .blocklistimage img{
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     object-fit: cover;
 }
 .blocklistimage{
@@ -103,6 +115,8 @@ body{
     flex-direction: column;
     align-items: center;
     width: 33%;
+    height: 70vh;
+    box-shadow: 2px 1px 6px 0px #000;
 }
 .blocklisttext{
     padding: 15px 25px;
@@ -125,7 +139,7 @@ body{
     align-items: center;
 }
 .imageblock3{
-    width: 50%;
+    width: 100%;
 }
 .imageblock3 img{
     height: 50vh;
@@ -133,12 +147,76 @@ body{
     object-fit: cover;
 }
 .textblock3{
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
 }
 .subscribe{
     height: 50vh;
     width: 100%;
-    background-color: #f2f4f1;
+    background-color: #dfe4de;
     text-align: center;
 }
+.text2block3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.text3block3{
+    line-height: 1.8;
+    margin-top: 3%;
+}
+.about{
+    font-size: 30px;
+}
+.textsubscribe1{
+    font-size: 30px;
+}
+.textsubscribe2{
+    font-size: 25px
+}
+.buttonblock3{
+    font-size: 25px;
+    padding: 15px 50px;
+    border: 2px solid #000;
+}
+.string{
+    width: 30vw;
+}
+.string_label{
+    display: block;
+    margin-bottom: 0.25rem;
+}
+.string_imput{
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.string_imput::placeholder {
+    color: #212529;
+    opacity: 0.4;
+  }
+  .string_imput:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  }
