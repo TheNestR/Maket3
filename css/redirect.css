@@ -17,7 +17,6 @@ p{
 p::before {
     content: attr(text);
 }
-  
 p:hover::before{
     content: attr(hover-text);
     color: red;
