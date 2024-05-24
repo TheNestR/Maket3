@@ -183,11 +183,16 @@ body{
 }
 .buttonblock3{
     font-size: 25px;
-    padding: 15px 50px;
+    padding: 10px 55px;
     border: 2px solid #000;
+    margin-top: 25px;
+}
+.buttonblock3 a{
+    color: #000;
 }
 .string{
     width: 30vw;
+    margin-top: 20px;
 }
 .string_label{
     display: block;
@@ -203,11 +208,12 @@ body{
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    background-color: #fff;
+    background-color: #eff1ee;
     background-clip: padding-box;
-    border: 1px solid #bdbdbd;
+    /* border: 1px solid #bdbdbd; */
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding: 30px 15px;
 }
 .string_imput::placeholder {
     color: #212529;
