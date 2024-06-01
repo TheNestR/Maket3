@@ -87,7 +87,6 @@ html{
 .block2{
     height: 100vh;
     background-color: #f2f4f1;
-    margin: 20px 20px 0px 20px;
 }
 .block2text{
     display: flex;
@@ -191,16 +190,19 @@ html{
     border: 2px solid #000;
     margin-top: 25px;
     color: #000;
+    text-transform: uppercase;
+    letter-spacing: 9.2px;
 }
 .string{
     margin-top: 20px;
-    width: 80vw;
+    max-width: 500px;
+    width: 100%;
 }
 .string_imput{
     background-color: #eff1ee;
     border-radius: 4px;
     padding: 18px 15px;
-    width: 50%;
+    width: 80%;
 }
 .string_imput:focus {
     background-color: #fff;
@@ -243,9 +245,6 @@ footer{
     gap: 20px;
     margin: 0px 15px;
 }
-.string_imput{
-    width: 100%;
-}
 }
 @media (max-width:650px){
 .headertext{
@@ -278,7 +277,7 @@ footer{
     flex-direction: column;
 }
 .imageblock3 img{
-    height: 25vh;
+    height: 40vh;
 }
 .text3block3{
     padding: 10px 15px 50px;
@@ -318,5 +317,10 @@ footer{
 }
 .textsubscribe2{
     margin: 0px 15px;
+}
+}
+@media (max-height:700px){
+.line1{
+    margin-top: 40px;
 }
 }
