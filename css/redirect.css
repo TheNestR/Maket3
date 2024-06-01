@@ -13,6 +13,7 @@ body{
 p{
     cursor: url(../images/face.jpg), default;
     padding: 40px 20px;
+    text-align: center;
 }
 p::before {
     content: attr(text);

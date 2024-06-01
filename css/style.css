@@ -190,8 +190,6 @@ html{
     padding: 10px 55px;
     border: 2px solid #000;
     margin-top: 25px;
-}
-.buttonblock3 a{
     color: #000;
 }
 .string{
@@ -229,6 +227,7 @@ footer{
     flex-wrap: wrap;
     gap: 50px;
     margin-right: 50px;
+    font-weight: 500;
 }
 .footertext a{
     color: #000;
@@ -246,5 +245,78 @@ footer{
 }
 .string_imput{
     width: 100%;
+}
+}
+@media (max-width:650px){
+.headertext{
+    display: none;
+}
+.block1text1{
+    font-size: 80px;
+}
+.block2{
+    height: auto;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+.block2text{
+    position: relative;
+    margin-bottom: 35px;
+}
+.blocklist{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.section{
+    width: 100%;
+}
+.line1{
+    margin-top: 100px;
+}
+.fullblock3{
+    flex-direction: column;
+}
+.imageblock3 img{
+    height: 25vh;
+}
+.text3block3{
+    padding: 10px 15px 50px;
+    width: 90%;
+}
+.textblock3{
+    margin-top: 25px;
+}
+footer{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+.footertext{
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin: 0px;
+    font-size: 20px;
+}
+.icons{
+    margin: 0px;
+}
+.footerblock{
+    margin-top: 25px;
+}
+.block3{
+    height: auto;
+}
+}
+@media (max-width:380px){
+.block1text1{
+    font-size: 60px;
+}
+.textsubscribe2{
+    margin: 0px 15px;
 }
 }
