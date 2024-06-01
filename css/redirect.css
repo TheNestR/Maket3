@@ -22,5 +22,4 @@ p:hover::before{
     content: attr(hover-text);
     color: red;
     font-size: 80px;
- 
 }

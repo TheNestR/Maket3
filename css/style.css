@@ -203,6 +203,7 @@ html{
     border-radius: 4px;
     padding: 18px 15px;
     width: 80%;
+    transition: background-color 0.2s ease-in-out;
 }
 .string_imput:focus {
     background-color: #fff;
@@ -213,10 +214,18 @@ html{
     gap: 10px;
     margin-left: 50px;
 }
-.allicons{
+.socicons{
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    width: 45px;
-    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2a2a;
+}
+.allicons{
+    font-size: 28px;
+    color: #fff;
 }
 footer{
     display: flex;
